@@ -1,9 +1,8 @@
-from pygame.examples.eventlist import last_key
-
-nome  = input('Digite seu nome completo: ')
-nome  = nome.split()
+nome  = input('Digite seu nome completo: ').title().strip()
+print('Olá, {}, seja bem-vindo(a).'.format(nome))
+nome = nome.split()
 pnome = nome[0]
 unome = nome[-1]
-print(nome)
-print(pnome)
-print(unome)
+print('Primeiro nome: {}'.format(pnome))
+print('Último nome: {}'.format(unome))
+print(nome[len(nome)-1])
