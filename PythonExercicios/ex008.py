@@ -1,0 +1,7 @@
+comp = float(input('Digite o comprimento em metros: '))
+print('Quilometros: {}km'.format(comp / 1000))
+print('Hectômetro: {}hm'.format(comp / 100))
+print('Decâmetro: {}dam'.format(comp / 10))
+print('Decímetro: {}dm'.format(comp * 10))
+print('Centimetros: {}cm'.format(comp * 100))
+print('Milimetros: {}mm'.format(comp * 1000))
